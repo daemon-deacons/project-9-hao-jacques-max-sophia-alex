@@ -1,0 +1,63 @@
+#########################BEGIN-PROLOG#########################
+JobId             = 619964
+JobName           = ring_c_part_1
+UserId            = rossaj16(20365)
+GroupId           = rossaj16(20365)
+MCS_label         = N/A
+Priority          = 158
+Nice              = 0
+Account           = classes
+QOS               = normal
+Requeue           = 1
+Restarts          = 0
+BatchFlag         = 1
+Reboot            = 0
+ExitCode          = 0:0
+RunTime           = 00:00:01
+TimeLimit         = 00:10:00
+TimeMin           = N/A
+SubmitTime        = 2020-04-14T13:35:42
+EligibleTime      = 2020-04-14T13:35:42
+AccrueTime        = 2020-04-14T13:35:42
+StartTime         = 2020-04-14T13:36:11
+EndTime           = 2020-04-14T13:46:12
+Deadline          = N/A
+Partition         = medium
+AllocNode:Sid     = gemini:532
+NodeList          = a1a-u2-c4-b1,a1a-u2-c5-b1
+BatchHost         = a1a-u2-c4-b1
+NumNodes          = 2
+NumCPUs           = 4
+NumTasks          = 4
+CPUs/Task         = 1
+ReqB:S:C:T        = 0:0:*:*
+TRES=cpu=4,mem=2G,node=2,billing= cpu=4,mem=2G,node=2,billing=4
+Socks/Node        = *
+NtasksPerN:B:S:C  = 2:0:*:*
+CoreSpec          = *
+MinCPUsNode       = 2
+MinMemoryNode     = 1G
+MinTmpDiskNode    = 0
+Command           = /deac/classes/csc391/rossaj16/Project_9/part1.slurm
+WorkDir           = /deac/classes/csc391/rossaj16/Project_9
+StdErr            = /deac/classes/csc391/rossaj16/Project_9/ring_c-619964.e
+StdOut            = /deac/classes/csc391/rossaj16/Project_9/ring_c-619964.o
+Power             =
+###########################END-PROLOG#########################
+Process 0 sending 10 to 1, tag 201 (4 processes in ring)
+Process 0 sent to 1
+Process 0 decremented value: 9
+Process 0 decremented value: 8
+Process 0 decremented value: 7
+Process 0 decremented value: 6
+Process 0 decremented value: 5
+Process 0 decremented value: 4
+Process 0 decremented value: 3
+Process 0 decremented value: 2
+Process 0 decremented value: 1
+Process 0 decremented value: 0
+Process 0 exiting
+Process 1 exiting
+Process 2 exiting
+Process 3 exiting
+Execution complete!

@@ -1,0 +1,152 @@
+#########################BEGIN-PROLOG#########################
+JobId             = 620081
+JobName           = ring_c_part_3
+UserId            = rossaj16(20365)
+GroupId           = rossaj16(20365)
+MCS_label         = N/A
+Priority          = 158
+Nice              = 0
+Account           = classes
+QOS               = normal
+Requeue           = 1
+Restarts          = 0
+BatchFlag         = 1
+Reboot            = 0
+ExitCode          = 0:0
+RunTime           = 00:00:01
+TimeLimit         = 03:00:00
+TimeMin           = N/A
+SubmitTime        = 2020-04-14T17:35:57
+EligibleTime      = 2020-04-14T17:35:57
+AccrueTime        = 2020-04-14T17:35:57
+StartTime         = 2020-04-14T17:36:46
+EndTime           = 2020-04-14T20:36:47
+Deadline          = N/A
+Partition         = medium
+AllocNode:Sid     = gemini:532
+NodeList          = a1a-u2-c11-b7,a1a-u2-c14-b1
+BatchHost         = a1a-u2-c11-b7
+NumNodes          = 2
+NumCPUs           = 4
+NumTasks          = 4
+CPUs/Task         = 1
+ReqB:S:C:T        = 0:0:*:*
+TRES=cpu=4,mem=64G,node=2,billing= cpu=4,mem=64G,node=2,billing=4
+Socks/Node        = *
+NtasksPerN:B:S:C  = 2:0:*:*
+CoreSpec          = *
+MinCPUsNode       = 2
+MinMemoryNode     = 32G
+MinTmpDiskNode    = 0
+Command           = /deac/classes/csc391/rossaj16/Project_9/part3.slurm
+WorkDir           = /deac/classes/csc391/rossaj16/Project_9
+StdErr            = /deac/classes/csc391/rossaj16/Project_9/ring3_c-620081.e
+StdOut            = /deac/classes/csc391/rossaj16/Project_9/ring3_c-620081.o
+Power             =
+###########################END-PROLOG#########################
+Process 0 sent to 1
+Process 0 exiting
+Process 1 exiting
+Process 2 exiting
+Process 3 exiting
+The final value of the double is 816921454521178229047296.000000
+Run 1,1 ran in 429
+Process 0 sent to 1
+Process 0 exiting
+Process 1 exiting
+Process 2 exiting
+Process 3 exiting
+The final value of the double is 816921454521178229047296.000000
+Run 1,2 ran in 424
+Process 0 sent to 1
+Process 0 exiting
+Process 1 exiting
+Process 2 exiting
+Process 3 exiting
+The final value of the double is 816921454521178229047296.000000
+Run 1,3 ran in 419
+Process 0 sent to 1
+Process 0 exiting
+Process 1 exiting
+Process 2 exiting
+Process 3 exiting
+The final value of the double is 816921454521178229047296.000000
+Run 1,4 ran in 424
+Process 0 sent to 1
+Process 0 exiting
+Process 1 exiting
+Process 2 exiting
+Process 3 exiting
+The final value of the double is 816921454521178229047296.000000
+Run 1,5 ran in 426
+Process 0 sent to 1
+Process 0 exiting
+Process 1 exiting
+Process 2 exiting
+Process 3 exiting
+The final value of the double is 816921454521178229047296.000000
+Run 2,1 ran in 388
+Process 0 sent to 1
+Process 0 exiting
+Process 1 exiting
+Process 2 exiting
+Process 3 exiting
+The final value of the double is 816921454521178229047296.000000
+Run 2,2 ran in 421
+Process 0 sent to 1
+Process 0 exiting
+Process 1 exiting
+Process 2 exiting
+Process 3 exiting
+The final value of the double is 816921454521178229047296.000000
+Run 2,3 ran in 413
+Process 0 sent to 1
+Process 0 exiting
+Process 1 exiting
+Process 2 exiting
+Process 3 exiting
+The final value of the double is 816921454521178229047296.000000
+Run 2,4 ran in 435
+Process 0 sent to 1
+Process 0 exiting
+Process 1 exiting
+Process 2 exiting
+Process 3 exiting
+The final value of the double is 816921454521178229047296.000000
+Run 2,5 ran in 427
+Process 0 sent to 1
+Process 0 exiting
+Process 1 exiting
+Process 2 exiting
+Process 3 exiting
+The final value of the double is 816921454521178229047296.000000
+Run 3,1 ran in 487
+Process 0 sent to 1
+Process 0 exiting
+Process 1 exiting
+Process 2 exiting
+Process 3 exiting
+The final value of the double is 816921454521178229047296.000000
+Run 3,2 ran in 515
+Process 0 sent to 1
+Process 0 exiting
+Process 1 exiting
+Process 2 exiting
+Process 3 exiting
+The final value of the double is 816921454521178229047296.000000
+Run 3,3 ran in 494
+Process 0 sent to 1
+Process 0 exiting
+Process 1 exiting
+Process 2 exiting
+Process 3 exiting
+The final value of the double is 816921454521178229047296.000000
+Run 3,4 ran in 489
+Process 0 sent to 1
+Process 0 exiting
+Process 1 exiting
+Process 2 exiting
+Process 3 exiting
+The final value of the double is 816921454521178229047296.000000
+Run 3,5 ran in 418
+Execution complete!
