@@ -24,14 +24,16 @@ Execution complete!
 ## Part 2
 The execution graph for each of the different message passing methods is shown in the graph below.
 
-// ADD GITHUB IMAGE REFERENCE HERE!
+![Image of Part 2 Graphs]
+(https://github.com/daemon-deacons/project-9-hao-jacques-max-sophia-alex/blob/master/part_2_graph.png)
 
 Although the MPI code remains the same, the allowed MPI interface is changed which accounts for differences in the execution time. The slowest MPI interface is tcp, self with an average of 60.2 seconds and a standard deviation of 0.84 seconds. The next fastest MPI interface is tcp, vader, self with an avaerage execution time of 43 seconds and a standard deviation of 0.71 seconds. The fastest MPI interface is usnic, vader, self with an average execution time of just 13.8 seconds and a standard deviation of 0.45 seconds.
 
 ## Part 3
 The execution graphs for each of the different message passing methods is shown in the graph below.
 
-// ADD GITHUB IMAGE REFERENCE HERE!
+![Image of Part 3 Graphs]
+(https://github.com/daemon-deacons/project-9-hao-jacques-max-sophia-alex/blob/master/part_3_graph.png)
 
 Although the MPI code remains the same, the allowed MPI interface is changed which accounts for differences in the execution time. Interestingly, the slowest MPI interface is usnic, vader, self with an average of 480.6 seconds and a standard deviation of 36.72 seconds. The next fastest MPI interface is tcp, self with an avaerage execution time of 424.4 seconds and a standard deviation of 3.65 seconds. The fastest MPI interface is tcp, vader, self with an average execution time of just 416.8 seconds and a standard deviation of 18.01 seconds
 
